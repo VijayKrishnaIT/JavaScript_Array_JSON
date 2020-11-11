@@ -1,0 +1,94 @@
+<!-- <script>
+  let obj = {
+    sub_one: "reactjs",
+    sub_two: "NodeJS",
+    sub_three: "MongoDB",
+  };
+  console.log(obj.sub_one, obj.sub_two, obj.sub_three); //reactjs NodeJS MongoDB
+</script>
+ -->
+<!-- <script>
+  let obj = { key1: "hello1", key2: "hello2", key3: "hello3" };
+
+  //Es6 for...in --iterate json objects
+
+  for (let key in obj) {
+    console.log(key, obj[key], typeof key);
+    //key1 hello1 string
+    //key2 hello2 string
+    //key3 hello3 string
+  }
+</script> -->
+
+<!--DataType of key is string-->
+
+<!-- <script>
+  let obj = { key1: "hello1", key2: "hello2", key3: "hello3" };
+  for (let key in obj) {
+    if (key != "key1") {
+      console.log(key, obj[key], typeof key);
+      //key2 hello2 string
+      //key3 hello3 string
+    }
+  }
+</script> -->
+
+<!-- <script>
+  //4 key & value pairs are taken
+  let obj = {
+    login: login(),
+    logout: logout(),
+    setCredentials: setCredentials(),
+    clearCredentials: clearCredentials(),
+  };
+
+  function login() {
+    return "welcome to login module";
+  }
+  function logout() {
+    return "welcome to logout module";
+  }
+  function setCredentials() {
+    return "welcome to set credentials module";
+  }
+  function clearCredentials() {
+    return "welcome to clear credentials module";
+  }
+
+  console.log(obj.login, obj.logout, obj.setCredentials, obj.clearCredentials);
+  //welcome to login module welcome to logout module welcome to set credentials module welcome to clear credentials module
+</script>
+ -->
+
+<!-- <script>
+  let obj = {
+    key1: "value1",
+    key2: "value2",
+    key3: "value3",
+  };
+  console.log(Object.keys(obj)); // ["key1", "key2", "key3"]
+  console.log(Object.values(obj)); // ["value1", "value2", "value3"]
+</script> -->
+
+<!-- <script>
+  let obj = { key1: "hello_1" };
+  //verify if key1 present or not
+  console.log(obj.hasOwnProperty("key1")); //true
+  console.log(obj.hasOwnProperty("key2")); //false
+</script> -->
+
+<script>
+  let obj = {
+    oracle: () => {
+      return "oracle connection soon";
+    },
+    mysql: () => {
+      return "my sql connection soon";
+    },
+    mongodb: () => {
+      return "mongodb connection soon";
+    },
+  };
+  console.log(obj.oracle(), obj.mysql(), obj.mongodb());
+  //oracle connection soon my sql connection soon mongodb connection soon
+</script>
