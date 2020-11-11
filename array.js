@@ -19,12 +19,6 @@ let arr3 = [50, 60];
 console.log([...arr1, ...arr2, ...arr3]); //[ 10, 20, 30, 40, 50, 60 ]
 console.log(arr1, arr2, arr3); //[ 10, 20 ] [ 30, 40 ] [ 50, 60 ]
 
-//What is Immutability? Original copy is never destroyed, Introduced in Es6.
-
-//What is mutability? Modifiying the original copy
-
-//Always recommended Immutability.
-
 //join(), repeat() -->Completed.
 
 //toString()
